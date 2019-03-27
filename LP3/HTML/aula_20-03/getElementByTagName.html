@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>get Element By Tag Name</title>
+    <script>
+        function estiloDoParagrafo() {
+            var paragrafos = document.getElementsByTagName('p');
+
+            paragrafos[0].style.color = 'blue';
+            paragrafos[0].style.fontSize = '14pt';
+
+            paragrafos[1].style.color = 'yellow';
+            paragrafos[1].style.fontSize = '10pt';
+        }
+    </script>
+</head>
+<body onload="estiloDoParagrafo()">
+    <p>
+        Este Paragrafo eh estilizado automaticamente por uma function
+    </p>
+
+    <p>
+            Este eh outro exemplo de paragrafo estilizado por uma function
+    </p>
+
+    
+</body>
+</html>

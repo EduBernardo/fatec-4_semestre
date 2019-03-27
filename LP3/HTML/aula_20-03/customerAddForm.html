@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastrar Clientes</title>
+    <script>
+        function validarForm(){
+        var formDados = document.getElementsByName('formInfo').values;
+        if (formDados == undefined || formDados.length < 4){
+            alert('ha campos em branco, preencha todos!')
+
+        } else{
+            alert(formDados[0])
+        }
+    }
+        function onFocus(){
+            document.getElementById('main-title').focus();
+        }
+    </script>
+    <style>
+        .form{
+            display: grid;
+
+        }
+    </style>
+</head>
+<body onload="onFocus()">
+    <h1 tabindex="0" id="main-title">
+        Cadastro de Cliente
+    </h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+    <form action="cadastro.php" id="cadastroCliente" method="POST" class="form">
+     <input name="form_cliente" type="text" name="formInfo" id="name"><br>
+     <input type="text" name="formInfo" id="sobrenome"><br>
+     <input type="email" name="formInfo" id="email"><br>
+     <input type="password" name="formInfo" id="senha">
+     <label for="name">Nome:</label>
+     <label for="sobrenome">Sobrenome:</label>
+     <label for="email">Email:</label>
+     <label for="senha">Senha:</label>
+     </form>
+     </fieldset>
+
+     <div id="buttons" style="margin-top:2rem; padding-left: 7rem;">
+     <button type="button" value="" onclick="validarForm()" style="margin-right:2rem"> Enviar </button>
+     <button type="button" value="" oncanplay="limparForm()">Limpar </button> 
+    </div>
+</body>
+</html>

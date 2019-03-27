@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Element By Class Name</title>
+    <script>
+        function calcularMedia() {
+            //recupera os elementos pertecentes a classe nota
+            var notas = document.getElementsByClassName('nota');
+            //acessa os valores do array notas
+            var nota1 = parseFloat(notas[0].value);
+            var nota2 = parseFloat(notas[1].value );
+            //calcula a media
+            var media = (nota1 + nota2) /2;
+            //exibe o resultado
+            alert("Media:" + media)
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        1 Nota <input type="text" name="nota1" class="nota"><br/>
+        2 Nota <input type="text" name="nota2" class="nota"><br/>
+        <input type="button" value="calcular" onclick="calcularMedia()">
+    </form>
+</body>
+</html>

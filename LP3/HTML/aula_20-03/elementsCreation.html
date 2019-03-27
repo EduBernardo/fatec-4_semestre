@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>elements auto-create</title>
+    <script>
+        function criaNovoParagrafo() {
+            //recupera o texto digitado
+            var texto = document.getElementById('textoParagrafo').value;
+            //cria um novo elemento tipo <p>
+            var novo_paragrafo = document.createElement('p');
+            //cria um texto para o elemento <p>
+            var texto_paragrafo = document.createTextNode(texto);
+            //atribui o texto ao elemento <p>
+            novo_paragrafo.appendChild(texto_paragrafo);
+            //adiciona o <p> como filho do elemento <body>
+                document.body.appendChild(novo_paragrafo)
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Elements Creation</h1>
+    <p>
+        Este exempl demonstra como criar um novo elemento e como adiciona-lo na arvore do DOM
+    </p>
+    <label for="novo_elemento">
+        Digite o novo paragrafo abaixo:
+    </label>
+    <textarea name="" id="textoParagrafo" cols="30" rows="10"></textarea>
+    <input type="button" value="Criar" onclick="criaNovoParagrafo()">
+</body>
+</html>

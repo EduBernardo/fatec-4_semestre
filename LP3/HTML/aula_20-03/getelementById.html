@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elements Selection by ID</title>
+    <script>
+        function showMensagem() {
+            //retorna o valor do elemento pelo ID
+            var msg = document.getElementById('mensagem').value;
+            //exibe o conteudo
+            alert(msg);
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        Digite uma mensagem: <input type="text" id="mensagem">
+        <br>
+        <input type="button" value="Show" onclick="showMensagem()">
+    </form>
+</body>
+</html>
