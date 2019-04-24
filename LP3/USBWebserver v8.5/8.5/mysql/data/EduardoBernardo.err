@@ -21,3 +21,54 @@ InnoDB: Creating foreign key constraint system tables
 InnoDB: Foreign key constraint system tables created
 190320 21:36:48  InnoDB: Waiting for the background threads to start
 190320 21:36:49 InnoDB: 1.1.8 started; log sequence number 0
+190410 19:14:44 [Note] Plugin 'FEDERATED' is disabled.
+190410 19:14:44 InnoDB: The InnoDB memory heap is disabled
+190410 19:14:44 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190410 19:14:44 InnoDB: Compressed tables use zlib 1.2.3
+190410 19:14:44 InnoDB: Initializing buffer pool, size = 128.0M
+190410 19:14:44 InnoDB: Completed initialization of buffer pool
+190410 19:14:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+190410 19:14:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+190410 19:14:45  InnoDB: Waiting for the background threads to start
+190410 19:14:46 InnoDB: 1.1.8 started; log sequence number 1595675
+190410 19:14:46 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+190410 19:14:46 [ERROR] Do you already have another mysqld server running on port: 3307 ?
+190410 19:14:46 [ERROR] Aborting
+
+190410 19:14:46  InnoDB: Starting shutdown...
+190410 19:14:47  InnoDB: Shutdown completed; log sequence number 1595675
+190410 19:14:47 [Note] C:\Users\User\Documents\FATEC\fatec-5_semestre\LP3\USBWebserver v8.5\8.5/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+
+190410 19:15:32 [Note] Plugin 'FEDERATED' is disabled.
+190410 19:15:32 InnoDB: The InnoDB memory heap is disabled
+190410 19:15:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190410 19:15:32 InnoDB: Compressed tables use zlib 1.2.3
+190410 19:15:32 InnoDB: Initializing buffer pool, size = 128.0M
+190410 19:15:32 InnoDB: Completed initialization of buffer pool
+190410 19:15:33 InnoDB: highest supported file format is Barracuda.
+190410 19:15:33  InnoDB: Waiting for the background threads to start
+190410 19:15:34 InnoDB: 1.1.8 started; log sequence number 1595675
+190417 22:47:09 [Note] Plugin 'FEDERATED' is disabled.
+190417 22:47:09 InnoDB: The InnoDB memory heap is disabled
+190417 22:47:09 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190417 22:47:09 InnoDB: Compressed tables use zlib 1.2.3
+190417 22:47:09 InnoDB: Initializing buffer pool, size = 128.0M
+190417 22:47:09 InnoDB: Completed initialization of buffer pool
+190417 22:47:09 InnoDB: highest supported file format is Barracuda.
+190417 22:47:10  InnoDB: Waiting for the background threads to start
+190417 22:47:11 InnoDB: 1.1.8 started; log sequence number 1595675
+190423 19:52:55 [Note] Plugin 'FEDERATED' is disabled.
+190423 19:52:55 InnoDB: The InnoDB memory heap is disabled
+190423 19:52:55 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190423 19:52:55 InnoDB: Compressed tables use zlib 1.2.3
+190423 19:52:55 InnoDB: Initializing buffer pool, size = 128.0M
+190423 19:52:55 InnoDB: Completed initialization of buffer pool
+190423 19:52:55 InnoDB: highest supported file format is Barracuda.
+190423 19:52:57  InnoDB: Waiting for the background threads to start
+190423 19:52:58 InnoDB: 1.1.8 started; log sequence number 1595675
