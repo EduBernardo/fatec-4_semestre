@@ -29,3 +29,9 @@
 ::1 - - [23/Apr/2019:20:57:48 -0300] "POST /PHP/cadastro.php HTTP/1.1" 200 238
 ::1 - - [23/Apr/2019:20:58:31 -0300] "POST /PHP/cadastro.php HTTP/1.1" 200 155
 ::1 - - [23/Apr/2019:20:58:37 -0300] "POST /PHP/cadastro.php HTTP/1.1" 200 155
+::1 - - [23/Apr/2019:21:03:10 -0300] "GET /PHP/ HTTP/1.1" 200 518
+::1 - - [23/Apr/2019:21:08:08 -0300] "-" 408 -
+::1 - - [23/Apr/2019:21:08:09 -0300] "GET /PHP/cadastro_prod.html HTTP/1.1" 200 740
+::1 - - [23/Apr/2019:21:08:11 -0300] "POST /PHP/cadastro.php HTTP/1.1" 200 126
+::1 - - [23/Apr/2019:21:08:29 -0300] "POST /PHP/cadastro.php HTTP/1.1" 200 141
+::1 - - [23/Apr/2019:21:13:29 -0300] "-" 408 -

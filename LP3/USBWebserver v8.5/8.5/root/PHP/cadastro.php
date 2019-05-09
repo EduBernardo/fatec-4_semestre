@@ -14,6 +14,7 @@ if(isset($_REQUEST['cli'])){
     echo "<br>ID: ".$_REQUEST['id'];
     echo "<br>Nome: ".$_REQUEST['nome'];
     echo "<br>Quantidade: ".$_REQUEST['qtde'];
+    echo "<br>Lote: ".$_REQUEST['lote'];
     echo "<br>Periculosidade: ".$_REQUEST['warn'];
 }
 
